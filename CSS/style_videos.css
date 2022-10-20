@@ -1,0 +1,40 @@
+body
+{
+    background: red;
+}
+.navbar {
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 0, 0);
+    cursor: pointer;
+    position: relative;
+}
+
+.navlist {
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.navlist li {
+    list-style: none;
+    padding: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.navlist li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.navlist li a:hover {
+    color: antiquewhite;
+}
+.logo {
+    margin-top: 16px;
+    margin-right: 75px;
+    border-radius: 100px;
+}

@@ -1,0 +1,50 @@
+
+body
+{
+    background: rgb(235, 235, 235);
+}
+.navbar {
+    background: black;
+    position: relative;
+}
+.container
+{
+    justify-content: center;
+    align-items: center;
+    margin-left: 450px;
+}
+h1
+{
+    margin-left: 78px;
+    margin-bottom: 2rem;
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    width: 24rem;
+    gap: 1rem;
+}
+input,
+textarea
+{
+    padding: 1.4rem;
+    background: rgb(236, 253, 255);
+    border: 1px solid black;
+}
+textarea
+{
+    height: 6rem;
+}
+button
+{
+    margin-left: 120px;
+    width: 8rem;
+    padding: 1.4rem;
+    background: rgb(26, 198, 255);
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 17px;
+}

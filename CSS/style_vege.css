@@ -1,0 +1,33 @@
+.navbar {
+    position: relative;
+}
+
+body {
+    background: rgb(234, 255, 175);
+}
+
+.vegetablesdiv {
+    display: inline-block;
+}
+
+.veg {
+    font-size: 110px;
+    font-weight: bold;
+    margin: 33px;
+    margin-top: 65px;
+    margin-bottom: 65px;
+    background: white;
+    color: black;
+    border-radius: 75px;
+    height: 500px;
+    width: 350px;
+    display: inline-block;
+    opacity: 0.75;
+    transition: 0.5s;
+    border: none;
+}
+
+.veg:hover {
+    opacity: 1;
+    border-radius: 90px;
+}

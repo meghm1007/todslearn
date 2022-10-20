@@ -1,0 +1,62 @@
+.navbar {
+    position: relative;
+}
+
+body {
+    background: rgb(255, 160, 252);
+}
+
+.familydiv {
+    display: inline-block;
+}
+
+.fam {
+    font-size: 110px;
+    font-weight: bold;
+    margin: 33px;
+    margin-top: 65px;
+    margin-bottom: 65px;
+    background: white;
+    color: black;
+    border-radius: 75px;
+    height: 500px;
+    width: 350px;
+    display: inline-block;
+    opacity: 0.75;
+    transition: 0.5s;
+    border: none;
+
+
+}
+
+.fam:hover {
+    opacity: 1;
+    border-radius: 90px;
+}
+.familydiv2
+{
+    display: inline-block;
+}
+.imgfam
+{
+    height: 350px;
+    width: 300px;
+    background-size: contain;
+    font-size: 110px;
+    font-weight: bold;
+    margin: 53px;
+    border-radius: 20px;
+    margin-top: 65px;
+    margin-bottom: 65px;
+    background: white;
+    color: black;
+    display: inline-block;
+    opacity: 0.9;
+    transition: 0.5s;
+    border: none;
+}
+.imgfam:hover {
+    opacity: 1;
+    border-radius: 50px;
+    cursor: pointer;
+}

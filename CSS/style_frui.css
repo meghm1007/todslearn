@@ -1,0 +1,33 @@
+.navbar {
+    position: relative;
+}
+
+body {
+    background: rgb(255, 230, 184);
+}
+
+.fruitsdiv {
+    display: inline-block;
+}
+
+.imgfruits {
+    font-size: 110px;
+    font-weight: bold;
+    margin: 33px;
+    margin-top: 65px; margin-bottom: 65px;
+    background: white;
+    color: black;
+    border-radius: 35px;
+    height: 350px;
+    width: 300px;
+    display: inline-block;
+    opacity: 0.85;
+    transition: 0.5s;
+    border: none;
+}
+
+.imgfruits:hover {
+    opacity: 1;
+    border-radius: 90px;
+    cursor: pointer;
+}

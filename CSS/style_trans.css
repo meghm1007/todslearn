@@ -1,0 +1,190 @@
+body
+{
+    background: rgb(16, 16, 16);
+}
+.navbar
+{
+    position: relative;
+}
+.transition_block
+{
+    display: inline-block;
+}
+.block
+{
+    height: 400px;
+    width: 275px;
+    margin: 60px;
+    border-radius: 90px;
+    color: rgb(255, 255, 255);
+    opacity: 0.7;
+    background: rgb(201, 201, 201);
+    cursor: pointer;
+    font-size: 75px;
+    font-weight: 700;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.block:hover
+{
+    opacity: 1;
+    
+}
+.fruits
+{
+    background: url("images/fruits.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.numbers {
+    background: url("images/numbers.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.vegetables {
+    background: url("images/vegetables.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.family {
+    background: url("images/family.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.vehicles {
+    background-image: url("images/transportbg2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.alphabets {
+    background-image: url("images/alphabets.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.colours
+{
+    background: url("images/coloursbg.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+.animals {
+    background: url("images/animalsbg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cartoons
+{
+    /*background: url("images/cartoon.jpg");*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 30px;
+    opacity: 0.7;
+    cursor: not-allowed;
+    color: rgb(255, 255, 255);
+    
+}
+.instruments
+{
+    
+    background: url("images2/instruments_bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bodyparts {
+
+    background: url("images/bodyparts.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+.engwords 
+{
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 30px;
+    opacity: 0.7;
+    cursor: not-allowed;
+    color: rgb(255, 255, 255);
+}
+.planets
+{
+
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 30px;
+        opacity: 0.7;
+        cursor: not-allowed;
+        color: rgb(255, 255, 255);
+    }
+.seasons
+{
+
+    background: url("images2/seasonsbg.jfif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.clothes
+{
+
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 30px;
+        opacity: 0.7;
+        cursor: not-allowed;
+        color: rgb(255, 255, 255);
+    }
+.festivals
+{
+
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 30px;
+        opacity: 0.7;
+        cursor: not-allowed;
+        color: rgb(255, 255, 255);
+    }
+.sports
+{
+
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-size: 30px;
+        opacity: 0.7;
+        cursor: not-allowed;
+        color: rgb(255, 255, 255);
+}
+.shapes {
+
+    background: url("images/shapesbg.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+.animals {
+
+    background: url("images/animalsbg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}

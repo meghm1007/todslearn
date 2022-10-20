@@ -1,0 +1,37 @@
+.navbar
+{
+    position: relative;
+}
+body
+{
+    background: rgb(255, 220, 220);
+}
+.numbersdiv
+{
+    display: inline-block;    
+}
+.numbT
+{
+    font-size: 110px;
+    font-weight: bold;
+    margin: 56px;
+    background: white;
+    color: black;
+    border-radius: 75px;
+    height: 300px;
+    width: 200px;
+    display: inline-block;
+    opacity: 0.75;
+    transition: 0.5s;
+    border: none;
+}
+.num100
+{
+    font-size: 76px;
+}
+.numbT:hover
+{
+    opacity: 1;
+    border-radius: 90px;
+    cursor: pointer;
+}
