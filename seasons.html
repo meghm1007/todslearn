@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/style_seasons.css">
+    <link rel="icon" type="image/x-icon" href="images/bl_logo.png">
+    <title>Seasons</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul class="navlist">
+            <div>
+                <img class="logo" src="images/bl_logo.png" alt="logo" height="50px" width="50px">
+            </div>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="transition.html">Learn</a></li>
+            <li><a href="contactus.html">Feedback</a> </li>
+
+        </ul>
+    </nav>
+    <div class="seasonsdiv">
+
+        <img onclick="audio1.play()" class="imgseasons winter" src="images2/wintergif.gif" alt="winter">
+        <img onclick="audio2.play()" class="imgseasons summer" src="images2/summergif.gif" alt="summer">
+        <img onclick="audio3.play()" class="imgseasons autumn" src="images2/autumngif.gif" alt="autumn">
+        <img onclick="audio4.play()" class="imgseasons spring" src="images2/springgif.gif" alt="spring">
+        <img onclick="audio5.play()" class="imgseasons monsoon" src="images2/monsoongif.gif" alt="monsoon">
+        
+    </div>
+
+    <script>
+        var audio1 = new Audio("sounds_seasons/winter.mp3");
+        var audio2 = new Audio("sounds_seasons/summer.mp3");
+        var audio3 = new Audio("sounds_seasons/autumn.mp3");
+        var audio4 = new Audio("sounds_seasons/spring.mp3");
+        var audio5 = new Audio("sounds_seasons/monsoon.mp3");
+        
+        
+    </script>
+</body>
+
+</html>

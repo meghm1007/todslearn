@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/style_fam.css">
+    <link rel="icon" type="image/x-icon" href="images/bl_logo.png">
+    <title>Family</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul class="navlist">
+            <div>
+                <img class="logo" src="images/bl_logo.png" alt="logo" height="50px" width="50px">
+            </div>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="transition.html">Learn</a></li>
+            <li><a href="contactus.html">Feedback</a> </li>
+    
+        </ul>
+    </nav>
+    <!--<div class="familydiv">
+        <button class="fam veh"><img src="/images/volume.png" alt="listen" height="60px" width="60px"></button>
+        <button class="fam"><img src="/images/volume.png" alt="listen" height="60px" width="60px"></button>
+        <button class="fam"><img src="/images/volume.png" alt="listen" height="60px" width="60px"></button>
+        <button class="fam veh"><img src="/images/volume.png" alt="listen" height="60px" width="60px"></button>
+        <button class="fam"><img src="/images/volume.png" alt="listen" height="60px" width="60px"></button>
+        <button class="fam"><img src="/images/volume.png" alt="listen" height="60px" width="60px"></button>
+        <button class="fam veh"><img src="/images/volume.png" alt="listen" height="60px" width="60px"></button>
+        <button class="fam"><img src="/images/volume.png" alt="listen" height="60px" width="60px"></button>
+        <button class="fam"><img src="/images/volume.png" alt="listen" height="60px" width="60px"></button>
+        <button class="fam veh"><img src="/images/volume.png" alt="listen" height="60px" width="60px"></button>
+        <button class="fam"><img src="/images/volume.png" alt="listen" height="60px" width="60px"></button>
+        <button class="fam"><img src="/images/volume.png" alt="listen" height="60px" width="60px"></button>
+    </div>-->
+
+    <div class="familydiv2">
+        <img onclick="audio_mom.play()" class="imgfam mom" src="images/mom.png" alt="mom">
+        <img onclick="audio_dad.play()" class="imgfam dad" src="images/dad.png" alt="dad">
+        <img onclick="audio_grandfather.play()" class="imgfam grandfather" src="images/grandfather.png" alt="grandfather">
+        <img onclick="audio_grandmother.play()" class="imgfam grandmother" src="images/grandmother.png" alt="grandmother">
+        <img onclick="audio_brother.play()" class="imgfam brother" src="images/brother.png" alt="brother">
+        <img onclick="audio_sister.play()" class="imgfam sister" src="images/sister.png" alt="sister">
+        
+    </div>
+    <script>
+        var audio_mom = new Audio("sounds_family/mom.mp3");
+        var audio_dad= new Audio("sounds_family/dad.mp3");
+        var audio_grandfather = new Audio("sounds_family/grandfather.mp3");
+        var audio_grandmother = new Audio("sounds_family/grandmother.mp3");
+        var audio_brother = new Audio("sounds_family/brother.mp3");
+        var audio_sister = new Audio("sounds_family/sister.mp3");
+    </script>
+</body>
+
+</html>

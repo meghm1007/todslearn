@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/style_instru.css">
+    <link rel="icon" type="image/x-icon" href="images/bl_logo.png">
+    <title>Instruments</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul class="navlist">
+            <div>
+                <img class="logo" src="images/bl_logo.png" alt="logo" height="50px" width="50px">
+            </div>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="transition.html">Learn</a></li>
+            <li><a href="contactus.html">Feedback</a> </li>
+    
+        </ul>
+    </nav>
+    <div class="instrumentsdiv">
+        <img onclick="audio1.play()" class="imginstruments guitar" src="images2/guitar.png" alt="guitar">
+        <img onclick="audio2.play()" class="imginstruments piano" src="images2/piano.png" alt="piano">
+        <img onclick="audio3.play()" class="imginstruments drums" src="images2/drums.png" alt="drums">
+        <img onclick="audio4.play()" class="imginstruments violin" src="images2/violin.png" alt="violin">
+        <img onclick="audio5.play()" class="imginstruments flute" src="images2/flute.png" alt="flute">
+        <img onclick="audio6.play()" class="imginstruments xylophone" src="images2/xylophone.png" alt="xylophone">
+
+        
+    </div>
+    <script>
+        var audio1 = new Audio("sounds_instruments/guitar.mp3");
+        var audio2 = new Audio("sounds_instruments/piano.mp3");
+        var audio3 = new Audio("sounds_instruments/drums.mp3");
+        var audio4 = new Audio("sounds_instruments/violin.mp3");
+        var audio5 = new Audio("sounds_instruments/flute.mp3");
+        var audio6 = new Audio("sounds_instruments/xylophone.mp3");
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/style_bodyparts.css">
+    <link rel="icon" type="image/x-icon" href="images/bl_logo.png">
+    <title>Shapes</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul class="navlist">
+            <div>
+                <img class="logo" src="images/bl_logo.png" alt="logo" height="50px" width="50px">
+            </div>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="transition.html">Learn</a></li>
+            <li><a href="contactus.html">Feedback</a> </li>
+
+        </ul>
+    </nav>
+    <div class="bodypartsdiv">
+        <img onclick="audio1.play()" class="imgbodyparts" src="images/ears.png" alt="circle">
+        <img onclick="audio2.play()" class="imgbodyparts" src="images/eyes.png" alt="rectangle">
+        <img onclick="audio3.play()" class="imgbodyparts" src="images/fingers.png" alt="square">
+        <img onclick="audio4.play()" class="imgbodyparts" src="images/hair.png" alt="triangle">
+        <img onclick="audio5.play()" class="imgbodyparts" src="images/hand.png" alt="circle">
+        <img onclick="audio6.play()" class="imgbodyparts" src="images/leg.png" alt="rectangle">
+        <img onclick="audio7.play()" class="imgbodyparts" src="images/mouth.png" alt="square">
+        <img onclick="audio8.play()" class="imgbodyparts" src="images/nose.png" alt="triangle">
+        <img onclick="audio9.play()" class="imgbodyparts" src="images/toes.png" alt="square">
+        <img onclick="audio10.play()" class="imgbodyparts" src="images/tongue.png" alt="triangle">
+
+    </div>
+    <script>
+        var audio1 = new Audio("sounds_bodyparts/ears.mp3");
+        var audio2 = new Audio("sounds_bodyparts/eyes.mp3");
+        var audio3 = new Audio("sounds_bodyparts/fingers.mp3");
+        var audio4 = new Audio("sounds_bodyparts/hair.mp3");
+        var audio5 = new Audio("sounds_bodyparts/hand.mp3");
+        var audio6 = new Audio("sounds_bodyparts/leg.mp3");
+        var audio7 = new Audio("sounds_bodyparts/mouth.mp3");
+        var audio8 = new Audio("sounds_bodyparts/nose.mp3");
+        var audio9 = new Audio("sounds_bodyparts/toes.mp3");
+        var audio10 = new Audio("sounds_bodyparts/tongue.mp3");
+    </script>
+</body>
+
+</html>

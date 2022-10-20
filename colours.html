@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/style_colours.css">
+    <link rel="icon" type="image/x-icon" href="images/bl_logo.png">
+    <title>Colours</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul class="navlist">
+            <div>
+                <img class="logo" src="images/bl_logo.png" alt="logo" height="50px" width="50px">
+            </div>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="transition.html">Learn</a></li>
+            <li><a href="contactus.html">Feedback</a> </li>
+
+        </ul>
+    </nav>
+    <div class="coloursdiv">
+        <img onclick="audio1.play()" class="imgcolours" src="images/red.png" alt="red">
+        <img  onclick="audio2.play()" class="imgcolours" src="images/blue.png" alt="blue">
+        <img  onclick="audio3.play()" class="imgcolours" src="images/green.png" alt="green">
+        <img  onclick="audio4.play()" class="imgcolours" src="images/yellow.png" alt="yellow">
+        <img  onclick="audio5.play()" class="imgcolours" src="images/black.png" alt="black">
+        <img  onclick="audio6.play()" class="imgcolours" src="images/white.png" alt="white">  
+    </div>
+    <script>
+        var audio1 = new Audio("sounds_colours/red.mp3");
+        var audio2 = new Audio("sounds_colours/blue.mp3");
+        var audio3 = new Audio("sounds_colours/green.mp3");
+        var audio4 = new Audio("sounds_colours/yellow.mp3");
+        var audio5 = new Audio("sounds_colours/black.mp3");
+        var audio6 = new Audio("sounds_colours/white.mp3");
+    </script>
+</body>
+
+</html>
